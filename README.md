@@ -13,7 +13,7 @@ You can find specific instructions for your distro here: https://download.inters
 
 Install with composer
 ```bash
-composer require marquardtkuechen//laravel-cacheconnector:dev-master
+composer require marquardtkuechen/laravel-cacheconnector:dev-master
 ```
 
 Add the Service Provider to config/app.php
