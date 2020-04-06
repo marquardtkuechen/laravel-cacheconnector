@@ -1,7 +1,7 @@
 {
-    "name": "techscope/laravel-sqlserver",
+    "name": "marquardtkuechen/laravel-cacheconnector",
     "type": "library",
-    "description": "Use ODBC to connect with your SQL Server instances from Laravel 5+",
+    "description": "Use ODBC to connect with your Intersystem Cache instances from Laravel 5+",
     "keywords": [
         "Cache",
         "Cache server",
