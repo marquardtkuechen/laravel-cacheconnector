@@ -16,6 +16,6 @@ class CacheServerServiceProvider extends ServiceProvider
     public function register()
     {
         // https://stackoverflow.com/questions/42583366/using-laravel-service-provider-to-override-connector-classes
-        $this->app->bind('db.connector.cache', CacheServerConnector::class);
+        $this->app->bind('db.connector.odbc', CacheServerConnector::class);
     }
 }
