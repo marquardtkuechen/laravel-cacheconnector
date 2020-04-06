@@ -29,7 +29,7 @@ composer require techscope/laravel-sqlserver:dev-master
 
 Add the Service Provider to config/app.php
 ```php
-TechScope\SqlServer\SqlServerServiceProvider::class
+MarquardtKuechen\CacheServer\CacheServerServiceProvider::class
 ```
 
 Make sure to update your config/database.php file
