@@ -5,17 +5,6 @@ Disclaimer: all Bash commands you will see here are examples for RHEL/CentOS Yum
 If you would like to help make these docs more friendly with other distros, please make sure to either submit a pull request on the README or open an issue with additional commands specifying which distro you are using and I'll then update the README docs.
 
 ## Dependencies
-### UnixODBC
-
-```bash
-sudo yum install -y unixodbc
-```
-
-### PHP's ODBC PDO driver
-
-```bash
-sudo yum install -y php-odbc
-```
 
 ### Intersystem Cache Driver
 You can find specific instructions for your distro here: https://download.intersystems.com/download/login.csp
