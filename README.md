@@ -41,4 +41,4 @@ Make sure to update your config/database.php file
 
 - For the ODBC Driver **MAKE SURE TO REPLACE THE SQUARE BRACKETS ([]) WITH CURLY BRACES ({}) IN** `config/database.php`
 - You must use the `host`, `database`, `username`, `password`, `port` properties to properly setup the DSN string for the ODBC Connection
-- **NOTE:** the `Address`, `Addr`, `Database`, `Server`, `UID`, `PWD`, `Network`, `Net`, `DSN` and `Database` properties cannot be used here and will be ignored as they are already specified the Laravel way 
+- **NOTE:** the `Database`, `Server`, `UID`, `PWD`, `Network`, `Net`, `DSN` and `Database` properties cannot be used here and will be ignored as they are already specified the Laravel way 
